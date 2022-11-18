@@ -24,6 +24,7 @@ if [ -f $ENV_DIR/PROJECT_PATH ]; then
 		cp -R $TMP_DIR/. $BUILD_DIR/
 		echo "       cleaning tmp dir $TMP_DIR"
 		rm -rf $TMP_DIR
+		rm -rf $CACHE_DIR
 	fi
 fi
 
